@@ -1,0 +1,44 @@
+/* .header {
+    border: 2px solid gainsboro;
+    display:inline;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    font-size: 45px;
+    font-weight: 700;
+  }
+ */
+
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 80px;
+  width: 95%;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(151, 151, 151);
+}
+
+.name {
+  position: absolute;
+  top: 25px;
+  left: 80px;
+  font-family: "Avenir";
+  font-weight: bolder;
+  font-size: 23px;
+}
+
+.logo {
+  position: absolute;
+  height: 30px;
+  width: auto;
+  top: 3vh;
+  right: 1vw;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: "../assets/avenir-lt-std-cufonts-webfont";
+}
